@@ -1,0 +1,72 @@
+.form{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+p{
+    font: 1.4rem arial;
+    text-align: center
+}
+.leftElems{
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.rightElems{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+input{
+    margin-bottom: 10px;
+    height: 20px;
+    width: 300px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font: 1.2rem arial;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+button:hover{
+    border: solid 2px orange;
+    background-color: white;
+    color: orange;
+}
+.sumNdSub{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+.sumOrd{
+    font: 1.2rem arial;
+}
+.inputEl{
+    font: 1rem arial;
+    color: gray;
+    margin-bottom: 10px;
+}
+.logos{
+    font: 2.2rem arial;
+    margin-bottom: 50px;
+    color: black;
+}
+.decor_none{
+    text-decoration: none;
+}
+.proColors{
+    color: rgb(255, 185, 54);
+}

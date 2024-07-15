@@ -1,0 +1,166 @@
+.logos{
+    font: 2.2rem arial;
+    color: black;
+}
+.fsplogo{
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 50px;
+    width: 190px;
+}
+.proColors{
+    color: rgb(255, 185, 54);
+}
+body::-webkit-scrollbar{
+    width: 6px;
+    border-radius: 100%;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(75, 75, 75);
+    border-radius: 20px; 
+}
+.elemOfCartArr{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 15px;
+}
+.elementsCart{
+    padding: 10px;
+}
+.imgOfCartArr{
+    width: 150px;
+    height: 150px;
+}
+.nameOfCartArr{
+    font: 1.1rem arial;
+    padding-right: 10px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.315))
+}
+.Elem_sOfCartArr{
+    width: 100%;
+}
+.upElemOfCartArr{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: auto;
+}
+.bottomElemOfCartArr{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: auto;
+}
+.bilOfCard{
+    font: 1rem arial;
+    color: rgb(136, 136, 136);
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.205))
+}
+.but_sPM{
+    display: flex;
+    background-color: rgb(206, 206, 206);
+    width: 100px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(78, 78, 78, 0.411);
+    margin: 10px;
+}
+.butPM{
+    border: none;
+    background-color: rgb(163, 163, 163);
+    box-shadow: 0 0 10px rgba(136, 136, 136, 0.411);
+    border-radius: 30px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    font: 1.2rem arial;
+    cursor: pointer;
+}
+.butPM:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: solid 1px black;
+}
+.cartEmp{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    font: 1.6rem arial;
+    align-items: center;
+}
+.countOfElem{
+    font: 1.2rem arial;
+}
+.cartElem{
+    width: 40%;
+    box-shadow: 0 0 10px rgba(63, 63, 63, 0.342);
+    border-radius: 50px;
+    float: left;
+}
+.CartTitle{
+    font: 1.8rem arial;
+    text-align: center;
+    filter: drop-shadow(0 0 10px rgba(87, 87, 87, 0.5));
+}
+.price{
+    filter: drop-shadow(0 0 10px rgba(87, 87, 87, 0.144));
+    background-color: white;
+    color: orange;
+    border: solid orange 2px;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    left: 30%;
+}
+.priceOfCart{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    float: right;
+    width: 40%;
+    height: auto;
+    border-radius: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.txtPriceCart{
+    font: 1.2rem arial;
+    filter: drop-shadow(0 0 10px rgba(87, 87, 87, 0.5));
+}
+.discountElem{
+    display: flex;
+    filter: drop-shadow(0 0 10px rgba(87, 87, 87, 0.5));
+}
+.countInCart{
+    display: flex;
+    filter: drop-shadow(0 0 10px rgba(87, 87, 87, 0.5));
+}
+.submit{
+    font: 1.4rem arial;
+    color: white;
+    background-color: orange;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(255, 166, 0, 0.356);
+    cursor: pointer;
+}
+.priceOfCartArr{
+    padding-left: 5px;
+}
+.subref{
+    text-decoration: none;
+    border: none;
+    display: flex;
+    color: white;
+}
+.submitBuf{
+    cursor: default;
+    background-color: rgb(177, 177, 177);
+    box-shadow: none;
+    color: gray;
+}

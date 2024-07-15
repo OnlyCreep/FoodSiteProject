@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа</title>
+    <link type="Image/x-icon" href="images/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="styles/orderSendstyle.css">
+    <link type="Image/x-icon" href="images/favicon.ico" rel="icon">
+</head>
+<body>
+    <div class="elemS">
+        <a href="index.html" class="decor_none"><div class="logos">Food<b class="proColors">Pro</b>ject</div></a>
+        <p>!!!Сайт не является публичной офертой!!!</p>
+    </div>
+    <p>Оформление заказа</p>
+    <div class="form">
+            <div class="leftElems">
+                <input type="text" placeholder="Имя" id="name" class="inputEl">
+                <input type="tel" placeholder="Номер телефона" id="tel" class="inputEl">
+                <input type="text" placeholder="Улица" id="strt" class="inputEl">
+                <input type="text" placeholder="Дом" id="hse" class="inputEl">
+            </div>
+            <div class="rightElems">
+                <span class="inputEl">Если не частный дом</span>
+                <input type="text" placeholder="Квартира" id="apart" class="inputEl">
+                <input type="text" placeholder="Подъезд" id="entre" class="inputEl">
+                <input type="text" placeholder="Этаж" id="floor"class="inputEl">
+            </div>
+        </div>
+        <div class="sumNdSub">
+            <span class="sumOrd">Сумма заказа: <span class="sum"></span>₽</span>
+            <span><button class="submit" type="submit">Подтвердить</button></span>
+        </div>
+    <script rel="javascript" type="text/javascript" src="scripts/jquery-3.6.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/ajaxQs.js"></script>
+</body>
+</html>
